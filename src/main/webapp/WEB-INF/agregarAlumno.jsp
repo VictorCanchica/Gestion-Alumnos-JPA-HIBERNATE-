@@ -2,12 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Modificar Alumno</title>
+        <title>Agregar Alumno</title>
     </head>
     <body>
-        <h1>Modificar Alumno</h1>
-        <form name="form1" action="${pageContext.request.contextPath}/ServletModificar" 
-              method="post">
+         <h1>Agregar Alumno</h1>
+        <form name="form1" action="${pageContext.request.contextPath}/ServletAgregar" method="post">
             <input type="hidden" name="idAlumno" value="${alumno.idAlumno}" />
             
             Nombre: <input type="text" name="nombre" value="${alumno.nombre}"/>
