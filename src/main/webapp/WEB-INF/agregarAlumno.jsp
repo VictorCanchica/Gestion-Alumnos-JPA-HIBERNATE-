@@ -29,8 +29,7 @@
             <br/>
             Telefono: <input type="tel" name="telefono" value="${alumno.contacto.telefono}">
             <br/>
-            <input type="submit" name="Modificar" value="Modificar">
-            <input type="submit" name="Eliminar" value="Eliminar">
+            <input type="submit" name="Agregar" value="Agregar">
         </form>
     </body>
 </html>
